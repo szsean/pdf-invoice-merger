@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# 构建产物
+build/
+dist/
+*.spec
+
+# PDF 文件一律不入库（发票含隐私，样例由真实发票生成）
+*.pdf
+
+# IDE / 工具
+.codebuddy/
